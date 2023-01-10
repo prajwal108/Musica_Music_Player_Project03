@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica - Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="images\logo.png" alt="">
+                <span>
+                    Musica
+                </span>
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        <div><h1>Musica's Top Music</h1></div>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img class="songCover" src="images\Black-Scorpion-Original-Soundtrack-Recording-English-2015-500x500.jpg" alt="1" width="25px">
+                <span class="songTitle">Black Scorpian Music Matrix</span><span class="songtime">04:33</span>
+                <span class="songlistplay"><button class="pausebtn"><img src="icons\pause.png" alt=""></button>
+                    <button class="playbtn"><img src="icons\play-button.png" alt=""></button></span>
+            </div>
+            <div class="songItem">
+                <img class="songCover" src="images\chill_lofi.jpg" alt="2" width="25px">
+                <span class="songTitle">Chill Lofi Song</span><span class="songtime">01:16</span>
+                <span class="songlistplay"><button class="pausebtn"><img src="icons\pause.png" alt=""></button>
+                    <button class="playbtn"><img src="icons\play-button.png" alt=""></button></span>
+            </div>
+        </div>
+        
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="playerBar">
+        <input type="range" name="range" id="myPlayerBar" min="0" max="100"> 
+        <div class="icons">
+            <button class="icon"><img src="icons\previous.png" alt=""></button>
+            <button class="icon"><img src="icons\pause.png" alt=""></button>
+            <button id="playbtn" class="icon"><img src="icons\play-button.png" alt=""></button>
+            <button class="icon"><img src="icons\next-button.png" alt=""></button>
+ 
+        </div>
+       <div class="songInfo">
+        <img src="images\music.gif" alt="" width="70px"> Black Scorpian Music Matrix
+       </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
